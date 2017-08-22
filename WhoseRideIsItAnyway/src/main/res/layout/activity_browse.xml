@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Browse" >
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.com.whoserideisitanyway.Browse" />
+
+<View
+android:id="@+id/VerticalLine"
+android:layout_width="1dip"
+android:layout_height="match_parent"
+android:background="#aaa" />
+
+    <ImageButton
+    android:id="@+id/ListView"
+    android:layout_width="80dp"
+        android:layout_height="80dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:text="view"
+    android:layout_weight="1"
+        android:background="@drawable/grid_80x80"
+        android:layout_gravity="right|top" />
+</FrameLayout>

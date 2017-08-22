@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Whose Ride Is It Anyway</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_capture">Capture</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_check">Check</string>
+    <string name="title_activity_browse">Map</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_final_nav">Map</string>
+    <string name="title_activity_grid_search">Grid View</string>
+    <string name="ad_footer">ca-app-pub-3076799194669466/9314141034</string>
+    <string name="ad_interstitial"> ca-app-pub-3076799194669466/9964785835</string>
+
+</resources>
